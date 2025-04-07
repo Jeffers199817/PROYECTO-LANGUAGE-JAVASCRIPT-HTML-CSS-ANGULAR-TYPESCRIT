@@ -7,6 +7,7 @@ let frase1 = "naranja, pechuga, lechuga, tomate";
 
 console.log(frase1);
 
+
 let lista = frase1.split(",");
 
 console.log(lista);
