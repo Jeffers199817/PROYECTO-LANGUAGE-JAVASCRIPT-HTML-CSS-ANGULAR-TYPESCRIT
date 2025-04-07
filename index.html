@@ -5,13 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de prueba de JavaScript</title>
-    <script src = "/js/objetosString.js"></script>
+    <script src = "/js/modelo.js"></script>
+    <style>
+        #parrafo {
+            width: 900px;
+            height: 100px;
+            background: rgb(255, 217, 0);
+            position: relative;
+        }
+    
+        @keyframes mover {
+            from {
+                transform: translateX(0);
+            }
+    
+            to {
+                transform: translateX(100px);
+            }
+        }
+    </style>
 
 </head>
 
 <body>
     <h1>Título Prueba 1</h1>
-    <p>Hola esto es una prueba !!!</p>
+    <p id="parrafo">Hola esto es una prueba4!!!</p>
+    
+    <button onclick="cambiarTexto()">Cambiar texto</button>
 
 </body>
 
