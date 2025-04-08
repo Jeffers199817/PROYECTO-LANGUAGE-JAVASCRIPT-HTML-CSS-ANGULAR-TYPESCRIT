@@ -1,0 +1,42 @@
+
+*{
+
+    border:solid 1px red;
+}
+body{
+    background-color:cadetblue;
+    border:solid 1px red;
+    
+
+}
+
+.titulo-general{
+    
+    text-align:center;
+    color:red;
+    display:flex;
+    justify-content: center;
+  
+}
+
+.formulario{
+
+    display:flex;
+    
+    
+
+}
+    
+.form{
+    display:flex;
+    flex-direction: column;
+   
+
+
+
+}
+
+.caja{
+
+    margin: 0px 0px 5px -15px;
+}

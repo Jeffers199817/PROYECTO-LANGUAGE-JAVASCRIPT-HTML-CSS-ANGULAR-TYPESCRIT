@@ -5,34 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de prueba de JavaScript</title>
-    <script src = "/js/ejercicioIntegrador.js"></script>
-    <style>
-        #parrafo {
-            width: 900px;
-            height: 100px;
-            background: rgb(255, 217, 0);
-            position: relative;
-        }
-    
-        @keyframes mover {
-            from {
-                transform: translateX(0);
-            }
-    
-            to {
-                transform: translateX(100px);
-            }
-        }
-    </style>
+    <script src = "/js/EjercicioIntegradorFinal.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+  
 
 </head>
 
 <body>
-    <h1>Título Prueba 1</h1>
-    <p id="parrafo">Hola esto es una prueba4!!!</p>
-    
-    <button onclick="cambiarTexto()">Cambiar texto</button>
+    <h1 class="titulo-general">Ejercicio Práctico</h1>
 
+    <p id="parrafo">Lista de Tareas</p>
+
+    <form class="formulario" id="tareaForm" method="GET">
+        <fieldset class="form">
+
+            <label class="caja" for ="opcion">Ingrese una tarea.</label>
+            <input class="caja" type="text" id="opcion" name="opcion">
+            <button class="caja" type="submit" onclick="agregarTarea">Agregar Tarea</button>
+
+        </fieldset>
+        
+        
+    </form>
+    <div id="listaTareas"></div>
+    <script src="/js/EjercicioIntegradorFinal.js"></script>
+    
+    
 </body>
 
 </html>
